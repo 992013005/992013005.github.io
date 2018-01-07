@@ -3,11 +3,20 @@
 <title>test</title>   
 </head>  
 <body>  
-   <h1>呵呵<h1>
-      <script type="text/javascript">
-document.write("<h1>这是标题</h1>");
-document.write("<p>这是段落。</p>");
-document.write("<p>这是另一个段落。</p>");
+<script type="text/javascript">
+function mouseOver()
+{
+document.b1.src ="/i/eg_mouse.jpg"
+}
+function mouseOut()
+{
+document.b1.src ="/i/eg_mouse2.jpg"
+}
 </script>
+</head>
+
+<body>
+<a href="/index.html" target="_blank">
+<img border="0" alt="Visit W3School!" src="/i/eg_mouse2.jpg" name="b1"  onmouseover="mouseOver()" onmouseout="mouseOut()" /></a>
 </body>  
 </html> 
